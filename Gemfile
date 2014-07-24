@@ -1,7 +1,8 @@
 source 'https://rubygems.org'
 
-group :unit do
-  gem 'berkshelf'
-  gem 'chefspec'
-  gem 'ecomdev-chefspec'
-end
+gem 'rake'
+gem 'chef'
+gem 'berkshelf', '~> 3.1.3'
+gem 'chefspec', '~> 4.0.1'
+gem 'chef-sugar'
+gem 'ecomdev-chefspec', '~> 0.1.6'

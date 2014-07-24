@@ -3,8 +3,9 @@ require 'rspec/core/rake_task'
 
 RSpec::Core::RakeTask.new(:unit) do |t|
   t.rspec_opts = [].tap do |a|
-    a.push('--color')
-    a.push('--format progress')
+    a << '--color'
+    a << '--format progress'
+    a << '--require spec_helper'
   end.join(' ')
 end
 

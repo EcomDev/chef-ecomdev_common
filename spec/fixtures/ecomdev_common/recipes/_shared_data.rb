@@ -1,0 +1,1 @@
+node.shared_data(:namespace, :group, :key, node[:test_shared_data])
